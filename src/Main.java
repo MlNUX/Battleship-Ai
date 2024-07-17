@@ -1,5 +1,9 @@
+import model.util.GameManager;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        GameManager cl = new GameManager(10);
+        cl.test();
     }
 }
